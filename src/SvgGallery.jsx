@@ -1,3 +1,4 @@
+import frame28 from "./assets/frame28.svg";
 import image8 from "./assets/image8.svg";
 import image12 from "./assets/image12.svg";
 import image14 from "./assets/image14.svg";
@@ -8,6 +9,7 @@ const SvgGallery = () => {
   return (
     <div className="svg-gallery">
       <div className="svg-container">
+        <img src={frame28} alt="logos" />
         <img src={image8} alt="pixel art" />
         <img src={image12} alt="pixel art" />
         <img src={image14} alt="pixel art" />
